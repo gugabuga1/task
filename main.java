@@ -7,7 +7,7 @@ public class main {
     public static void main (String ...args) {
         String input;
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.println("1 2 3 4 5");
+            System.out.println("5 4 3 2 1");
             input = sc.nextLine();
         }
         String[] numbers = input.split("\\s");
